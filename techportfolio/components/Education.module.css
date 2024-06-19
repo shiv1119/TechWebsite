@@ -1,0 +1,32 @@
+.collegetitle{
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 500;
+}
+
+.educationtitle{
+    font-size: 1.1rem;
+    line-height: normal;
+    color: white;
+}
+
+.startdate{
+    font-size: 1rem;
+    line-height: normal;
+    color: rgb(243, 243, 243);
+}
+
+.skills{
+    font-size: 1.1rem;
+}
+
+.ul{
+    font-size: 1rem;
+    line-height: 98%;
+}
+
+.grade{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(245, 245, 245);
+}
