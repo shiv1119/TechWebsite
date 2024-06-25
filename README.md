@@ -46,7 +46,7 @@
 
 ## :dart: About ##
 
-THis is the skeleton of the portfolio that I'm currently developing.
+This is the skeleton of the portfolio that I'm currently developing.
 
 ## :sparkles: Features ##
 
@@ -96,7 +96,7 @@ $ yarn start
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/shiv1119" target="_blank">{{YOUR_NAME}}</a>
+Made with :heart: by <a href="https://github.com/shiv1119" target="_blank">Shiv Nandan Verma</a>
 
 &#xa0;
 
