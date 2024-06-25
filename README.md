@@ -39,30 +39,35 @@
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
+  <a href="https://github.com/shiv1119" target="_blank">Author</a>
 </p>
 
 <br>
 
 ## :dart: About ##
 
-Describe your project
+THis is the skeleton of the portfolio that I'm currently developing.
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: It describes about the user and his skills set.;\
+:heavy_check_mark: It also includes the important details about user education and liscense & certifications that he have gained during his studies and working time;\
+:heavy_check_mark: It includes all popular projects made by the user and a contact form so that interested persons may contact the author;
+:heavy_check_mark: THis website is fully functional with some animations that was made by using framer motion;
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
+
 - [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [Ant Design](https://ant.design/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Next Js](https://nextjs.org/)
+- [CSS]
+
+
+
 
 ## :white_check_mark: Requirements ##
 
@@ -72,10 +77,10 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 ```bash
 # Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/techwebsite
+$ git clone https://github.com/shiv1119/techwebsite
 
 # Access
-$ cd techwebsite
+$ cd techwebsite/techportfolio
 
 # Install dependencies
 $ yarn
@@ -91,7 +96,7 @@ $ yarn start
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{YOUR_NAME}}</a>
+Made with :heart: by <a href="https://github.com/shiv1119" target="_blank">{{YOUR_NAME}}</a>
 
 &#xa0;
 
