@@ -52,7 +52,7 @@ THis is the skeleton of the portfolio that I'm currently developing.
 
 :heavy_check_mark: It describes about the user and his skills set.;\
 :heavy_check_mark: It also includes the important details about user education and liscense & certifications that he have gained during his studies and working time;\
-:heavy_check_mark: It includes all popular projects made by the user and a contact form so that interested persons may contact the author;
+:heavy_check_mark: It includes all popular projects made by the user and a contact form so that interested persons may contact the author;\
 :heavy_check_mark: THis website is fully functional with some animations that was made by using framer motion;
 
 ## :rocket: Technologies ##
