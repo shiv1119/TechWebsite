@@ -1,26 +1,14 @@
-.worktitle{
-    font-size: 1.3rem;
-    color: white;
-    font-weight: 500;
-}
 
-.workcompany{
-    font-size: 1rem;
-    line-height: normal;
-    color: white;
-}
+
 
 .worklocation{
     font-size: 1rem;
     line-height: normal;
-    color: rgb(243, 243, 243);
+    color: rgb(109, 109, 109);
 }
 
 .roles{
     font-size: 1.1rem;
+    color: rgb(109, 109, 109);
 }
 
-.ul{
-    font-size: 1rem;
-    line-height: 98%;
-}

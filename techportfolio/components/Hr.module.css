@@ -1,8 +1,8 @@
 .bodyhr {
     height: 2px;
     border: 1px;
-    margin-top: 35px;
-    margin-bottom: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 50px 0 0 0 ;
     background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, red 100%);
     position: relative;

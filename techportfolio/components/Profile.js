@@ -1,22 +1,60 @@
 import React from 'react';
 import { Col, Row } from 'antd';
-import { Image } from 'antd';
+import {Image } from 'antd';
+import { motion, AnimatePresence } from 'framer-motion';
+import { MailOutlined, LinkedinFilled, GithubFilled, TwitterSquareFilled, PhoneFilled   } from '@ant-design/icons';
+import RightSlide from './RightSlide';
+import Slide from './slide';
 
 const Profile = () => {
     return (
         <>
            <Row>
-                <Col xs={16} sm={16} md={16} lg={16} xl={16} offset={4} style={{width:"100%", height:"auto"}}>
-                    <Row gutter={40}>
-                        <Col xs={10} sm={10} md={10} lg={10} xl={10} style={{display:"flex", justifyContent: "end"}}>
-                        <Image width={300}style={{border:"4px solid white", borderRadius:"50%"}} src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"/>
+                <Col xs={{ span: 22, offset: 1 }} sm={{ span: 20, offset: 2 }} md={{ span: 20, offset: 2 }} lg={{ span: 16, offset: 4 }} xl={{ span: 16, offset: 4 }} style={{width:"100%", height:"auto"}}>
+                    <Row gutter={[30,20]}>
+                        <Col xs={24} sm={24} md={10} lg={12} xl={12} className='profile_flex'>
+                            <RightSlide>
+                            <motion.div
+                            whileHover={{ scale: 1.1 }}
+                            whileTap={{ scale: 0.9 }}
+                            className='dp_max_width'>
+                            <Image preview={false} className='dp'  src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"/>
+                            </motion.div>
+                            </RightSlide>
                         </Col>
-                        <Col xs={14} sm={14} md={14} lg={14} xl={14} style={{display:"flex", justifyContent:"center", alignContent:"center", flexDirection:"column"}}>
-                            <p style={{fontSize:"2.5rem", fontWeight:"bold", color:"#ffffff"}}>Shiv Nandan Verma</p>
-                            <p style={{fontSize:"1.3rem",fontWeight:"600", color:"#ffffff"}}>Senior Sodtware Engineer at Googlu Baba</p>
-                            <p style={{fontSize:"1.2rem", fontWeight:"500", color:"#ffffff"}}>Bengaluru Karnataka</p>
-                            <a href="#" style={{fontSize:"1.3rem", fontWeight:"700", color:"#dbdbdb"}}>Conatact Info</a>
+        
+                        <Col xs={24} sm={24} md={14} lg={12} xl={12} className='profile_info_flex'>
+                            <Slide className="profile_info_flex">
+                            <p style={{}} className='large_text'>Shiv Nandan Verma</p>
+                            <p style={{fontWeight:"bold"}} className='medium_text text_center'>Senior Software Engineer at Googlu Baba</p>
+                            <p style={{}} className='medium_text'>Bengaluru Karnataka</p>
+                            <div style={{marginTop:"5px", display:"flex", gap:"13px"}}>
+                                <motion.a
+                                whileHover={{ scale: 1.08 }}
+                                whileTap={{ scale: 0.9 }}
+                                className='contacts' href="tel:+919076522608"><PhoneFilled /></motion.a>
+                                <motion.a 
+                                whileHover={{ scale: 1.08 }}
+                                whileTap={{ scale: 0.9 }}
+                                className='contacts' href="mailto:webmaster@example.com"> <LinkedinFilled /></motion.a>
+                                <motion.a 
+                                whileHover={{ scale: 1.08 }}
+                                whileTap={{ scale: 0.9 }}
+                                className='contacts' href="mailto:webmaster@example.com"> <MailOutlined /> </motion.a>
+                                <motion.a 
+                                whileHover={{ scale: 1.1 }}
+                                whileTap={{ scale: 0.08 }}
+                                className='contacts' href="mailto:webmaster@example.com"> <GithubFilled /></motion.a>
+                                <motion.a 
+                                whileHover={{ scale: 1.08 }}
+                                whileTap={{ scale: 0.9 }}
+                                className='contacts' href="mailto:webmaster@example.com"> <TwitterSquareFilled /> </motion.a>
+
+                            </div>
+                            </Slide>
+                            
                         </Col>
+                        
                     </Row>
                 </Col>
             </Row>
