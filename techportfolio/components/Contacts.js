@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Form, Input, Space, Row, Col, Card } from 'antd';
+import SlideUp from './SlideUp';
 
 const SubmitButton = ({ form, children }) => {
   const [submittable, setSubmittable] = React.useState(false);
@@ -24,7 +25,7 @@ const { TextArea } = Input;
 const Contacts = () => {
   const [form] = Form.useForm();
   return (
-    <>
+    <SlideUp>
     <Form>
       <Row>
         <Col xs={{ span: 22, offset: 1 }} sm={{ span: 20, offset: 2 }} md={{ span: 20, offset: 2 }} lg={{ span: 18, offset:  3}} xl={{ span: 16, offset: 4 }}>
@@ -118,7 +119,7 @@ const Contacts = () => {
         </Col>
       </Row>
       </Form>
-    </>
+    </SlideUp>
   );
 };
 export default Contacts;

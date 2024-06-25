@@ -35,7 +35,7 @@ export default function Home() {
           <Hr />
         </div>
       <main>
-        <Profile />
+        <Profile  />
         <div>
           <Hr />
         </div>
