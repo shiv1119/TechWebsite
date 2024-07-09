@@ -26,9 +26,9 @@ const Profile = () => {
         
                         <Col xs={24} sm={24} md={14} lg={12} xl={12} className='profile_info_flex'>
                             <Slide className="profile_info_flex">
-                            <p style={{}} className='large_text'><Typewriter texts={["Shiv Nandan Verma", "Fullstack Developer", "DevOps Engineer"]} /></p>
-                            <p style={{fontWeight:"bold"}} className='medium_text text_center'>Senior Software Engineer at Googlu Baba</p>
-                            <p style={{}} className='medium_text'>Bengaluru Karnataka</p>
+                            <span style={{}} className='large_text'><Typewriter texts={["Shiv Nandan Verma", "Fullstack Developer", "DevOps Engineer"]} /></span>
+                            <span style={{fontWeight:"bold"}} className='medium_text text_center'>Senior Software Engineer at Googlu Baba</span>
+                            <span style={{}} className='medium_text'>Bengaluru Karnataka</span>
                             <div style={{marginTop:"5px", display:"flex", gap:"13px"}}>
                                 <motion.a
                                 whileHover={{ scale: 1.08 }}
