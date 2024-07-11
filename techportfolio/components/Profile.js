@@ -26,7 +26,7 @@ const Profile = () => {
         
                         <Col xs={24} sm={24} md={14} lg={12} xl={12} className='profile_info_flex'>
                             <Slide className="profile_info_flex">
-                            <p style={{}} className='large_text'><Typewriter texts={["Shiv Nandan Verma", "Fullstack Developer", "DevOps Engineer"]} /></p>
+                            <div style={{}} className='large_text'><Typewriter texts={["Shiv Nandan Verma", "Fullstack Developer", "DevOps Engineer"]} /></div>
                             <p style={{fontWeight:"bold"}} className='medium_text text_center'>Senior Software Engineer at Googlu Baba</p>
                             <p style={{}} className='medium_text'>Bengaluru Karnataka</p>
                             <div style={{marginTop:"5px", display:"flex", gap:"13px"}}>

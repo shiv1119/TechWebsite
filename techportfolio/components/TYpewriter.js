@@ -33,7 +33,7 @@ export const Typewriter = ({ texts, ...rest }) => {
   }, [currentTextIndex, texts]);
 
   return (
-    <motion.p
+    <motion.div
       key={key}
       variants={sentenceVariants}
       initial="hidden"
@@ -45,7 +45,7 @@ export const Typewriter = ({ texts, ...rest }) => {
           {char}
         </motion.span>
       ))}
-    </motion.p>
+    </motion.div>
   );
 };
 
