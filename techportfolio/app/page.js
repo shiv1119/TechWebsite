@@ -18,6 +18,7 @@ import GitHubStats from "@/components/GitHubStats";
 
 import Repo from "@/components/Repo";
 import Contacts from "@/components/Contacts";
+import { Footer } from "antd/es/layout/layout";
 
 export default function Home() {
 
