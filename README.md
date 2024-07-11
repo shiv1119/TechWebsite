@@ -50,10 +50,10 @@ This is the skeleton of the portfolio that I'm currently developing.
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: It describes about the user and his skills set.;\
-:heavy_check_mark: It also includes the important details about user education and liscense & certifications that he have gained during his studies and working time;\
+:heavy_check_mark: It describes the user and his skill set.;\
+:heavy_check_mark: It also includes the important details about user education and license & certifications that he has gained during his studies and working time;\
 :heavy_check_mark: It includes all popular projects made by the user and a contact form so that interested persons may contact the author;\
-:heavy_check_mark: THis website is fully functional with some animations that was made by using framer motion;
+:heavy_check_mark: This website is fully functional with some animations that were made using framer motion;
 
 ## :rocket: Technologies ##
 
@@ -83,10 +83,10 @@ $ git clone https://github.com/shiv1119/techwebsite
 $ cd techwebsite/techportfolio
 
 # Install dependencies
-$ yarn
+$ npm install
 
 # Run the project
-$ yarn start
+$ npm run dev
 
 # The server will initialize in the <http://localhost:3000>
 ```
